@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Source JSON (~125 MB stream_events) — regenerate after clone
+spotify_dataset/*.json
+
+# Logs
+pipeline.log
+*.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
