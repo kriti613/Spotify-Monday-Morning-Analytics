@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 120" width="860" height="120">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="860" height="120" fill="#0f172a" rx="12"/>
+
+  <!-- Step 1: Extract -->
+  <rect x="20" y="24" width="148" height="72" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <rect x="20" y="24" width="148" height="5" rx="5" fill="#3b82f6"/>
+  <text x="94" y="56" font-family="ui-monospace,monospace" font-size="11" fill="#60a5fa" text-anchor="middle" font-weight="600">EXTRACT</text>
+  <text x="94" y="73" font-family="ui-sans-serif,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">JSON logs · CSVs · APIs</text>
+  <text x="94" y="87" font-family="ui-monospace,monospace" font-size="10" fill="#475569" text-anchor="middle">321,265 raw events</text>
+
+  <line x1="168" y1="60" x2="198" y2="60" stroke="#334155" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Step 2: Load -->
+  <rect x="200" y="24" width="148" height="72" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <rect x="200" y="24" width="148" height="5" rx="5" fill="#8b5cf6"/>
+  <text x="274" y="56" font-family="ui-monospace,monospace" font-size="11" fill="#a78bfa" text-anchor="middle" font-weight="600">LOAD</text>
+  <text x="274" y="73" font-family="ui-sans-serif,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Staging layer · PII isolated</text>
+  <text x="274" y="87" font-family="ui-monospace,monospace" font-size="10" fill="#475569" text-anchor="middle">41,786 rows/sec</text>
+
+  <line x1="348" y1="60" x2="378" y2="60" stroke="#334155" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Step 3: Transform -->
+  <rect x="380" y="24" width="148" height="72" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <rect x="380" y="24" width="148" height="5" rx="5" fill="#10b981"/>
+  <text x="454" y="56" font-family="ui-monospace,monospace" font-size="11" fill="#34d399" text-anchor="middle" font-weight="600">TRANSFORM</text>
+  <text x="454" y="73" font-family="ui-sans-serif,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">SQL · Star schema · Clean</text>
+  <text x="454" y="87" font-family="ui-monospace,monospace" font-size="10" fill="#475569" text-anchor="middle">275,575 loaded</text>
+
+  <line x1="528" y1="60" x2="558" y2="60" stroke="#334155" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Step 4: Analyse -->
+  <rect x="560" y="24" width="148" height="72" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <rect x="560" y="24" width="148" height="5" rx="5" fill="#f59e0b"/>
+  <text x="634" y="56" font-family="ui-monospace,monospace" font-size="11" fill="#fbbf24" text-anchor="middle" font-weight="600">ANALYSE</text>
+  <text x="634" y="73" font-family="ui-sans-serif,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">4 business queries</text>
+  <text x="634" y="87" font-family="ui-monospace,monospace" font-size="10" fill="#475569" text-anchor="middle">Monday report</text>
+
+  <!-- Stack label -->
+  <text x="840" y="45" font-family="ui-monospace,monospace" font-size="9" fill="#334155" text-anchor="middle">Python</text>
+  <text x="840" y="58" font-family="ui-monospace,monospace" font-size="9" fill="#334155" text-anchor="middle">+</text>
+  <text x="840" y="71" font-family="ui-monospace,monospace" font-size="9" fill="#334155" text-anchor="middle">PostgreSQL</text>
+</svg>

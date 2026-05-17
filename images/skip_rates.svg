@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 240" width="860" height="240">
+  <rect width="860" height="240" fill="#0f172a" rx="12"/>
+  <text x="30" y="26" font-family="ui-sans-serif,sans-serif" font-size="12" fill="#94a3b8" font-weight="500">Q2 — Skip rate by genre · free vs premium (%)</text>
+
+  <!-- genres and bars — free (blue) + premium (purple) side by side -->
+  <!-- y baseline = 220, bar height scale: 1% = 4.5px -->
+  <!-- genres: Metal 31.6/19.9, Reggaeton 32.9/18.3, Hip-hop 32.4/18.4, Pop 31.6/18.2, Classical 32.1/17.4 -->
+
+  <!-- x positions: group width 140, gap 20, starts at 60 -->
+  <!-- Metal: x=60 -->
+  <rect x="62"  y="79"  width="44" height="141" rx="3" fill="#3b82f6" opacity="0.85"/>
+  <rect x="110" y="130" width="44" height="90"  rx="3" fill="#8b5cf6" opacity="0.85"/>
+  <text x="128" y="235" font-family="ui-sans-serif,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Metal</text>
+  <text x="84"  y="74"  font-family="ui-monospace,monospace" font-size="9" fill="#60a5fa" text-anchor="middle">31.6%</text>
+  <text x="132" y="125" font-family="ui-monospace,monospace" font-size="9" fill="#a78bfa" text-anchor="middle">19.9%</text>
+
+  <!-- Reggaeton: x=220 -->
+  <rect x="222" y="72"  width="44" height="148" rx="3" fill="#3b82f6" opacity="0.85"/>
+  <rect x="270" y="137" width="44" height="83"  rx="3" fill="#8b5cf6" opacity="0.85"/>
+  <text x="290" y="235" font-family="ui-sans-serif,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Reggaeton</text>
+  <text x="244" y="67"  font-family="ui-monospace,monospace" font-size="9" fill="#60a5fa" text-anchor="middle">32.9%</text>
+  <text x="292" y="132" font-family="ui-monospace,monospace" font-size="9" fill="#a78bfa" text-anchor="middle">18.3%</text>
+
+  <!-- Hip-hop: x=380 -->
+  <rect x="382" y="75"  width="44" height="145" rx="3" fill="#3b82f6" opacity="0.85"/>
+  <rect x="430" y="137" width="44" height="83"  rx="3" fill="#8b5cf6" opacity="0.85"/>
+  <text x="450" y="235" font-family="ui-sans-serif,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Hip-hop</text>
+  <text x="404" y="70"  font-family="ui-monospace,monospace" font-size="9" fill="#60a5fa" text-anchor="middle">32.4%</text>
+  <text x="452" y="132" font-family="ui-monospace,monospace" font-size="9" fill="#a78bfa" text-anchor="middle">18.4%</text>
+
+  <!-- Pop: x=540 -->
+  <rect x="542" y="79"  width="44" height="141" rx="3" fill="#3b82f6" opacity="0.85"/>
+  <rect x="590" y="138" width="44" height="82"  rx="3" fill="#8b5cf6" opacity="0.85"/>
+  <text x="610" y="235" font-family="ui-sans-serif,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Pop</text>
+  <text x="564" y="74"  font-family="ui-monospace,monospace" font-size="9" fill="#60a5fa" text-anchor="middle">31.6%</text>
+  <text x="612" y="133" font-family="ui-monospace,monospace" font-size="9" fill="#a78bfa" text-anchor="middle">18.2%</text>
+
+  <!-- Classical: x=700 -->
+  <rect x="702" y="76"  width="44" height="144" rx="3" fill="#3b82f6" opacity="0.85"/>
+  <rect x="750" y="141" width="44" height="79"  rx="3" fill="#8b5cf6" opacity="0.85"/>
+  <text x="770" y="235" font-family="ui-sans-serif,sans-serif" font-size="10" fill="#64748b" text-anchor="middle">Classical</text>
+  <text x="724" y="71"  font-family="ui-monospace,monospace" font-size="9" fill="#60a5fa" text-anchor="middle">32.1%</text>
+  <text x="772" y="136" font-family="ui-monospace,monospace" font-size="9" fill="#a78bfa" text-anchor="middle">17.4%</text>
+
+  <!-- baseline -->
+  <line x1="30" y1="220" x2="830" y2="220" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- legend -->
+  <rect x="30" y="44" width="10" height="10" rx="2" fill="#3b82f6"/>
+  <text x="46" y="54" font-family="ui-sans-serif,sans-serif" font-size="10" fill="#64748b">Free users</text>
+  <rect x="120" y="44" width="10" height="10" rx="2" fill="#8b5cf6"/>
+  <text x="136" y="54" font-family="ui-sans-serif,sans-serif" font-size="10" fill="#64748b">Premium users</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 160" width="860" height="160">
+  <rect width="860" height="160" fill="#0f172a" rx="12"/>
+  <text x="30" y="26" font-family="ui-sans-serif,sans-serif" font-size="12" fill="#94a3b8" font-weight="500">Q3 — Free vs Premium listening behaviour</text>
+
+  <!-- 3 comparison metrics -->
+  <!-- Avg plays/user: Free 189, Premium 497 -->
+  <text x="30" y="60" font-family="ui-sans-serif,sans-serif" font-size="11" fill="#64748b">Avg plays / user</text>
+  <rect x="30" y="68" width="60" height="12" rx="3" fill="#1d4ed8"/>
+  <rect x="30" y="68" width="158" height="12" rx="3" fill="#7c3aed"/>
+  <text x="96" y="79" font-family="ui-monospace,monospace" font-size="9" fill="#93c5fd">Free: 189</text>
+  <text x="196" y="79" font-family="ui-monospace,monospace" font-size="9" fill="#c4b5fd">Premium: 497 (2.6×)</text>
+
+  <!-- Completion %: Free 56.9, Premium 67.1 -->
+  <text x="30" y="108" font-family="ui-sans-serif,sans-serif" font-size="11" fill="#64748b">Avg completion %</text>
+  <rect x="30" y="116" width="182" height="12" rx="3" fill="#1d4ed8"/>
+  <rect x="30" y="116" width="214" height="12" rx="3" fill="#7c3aed"/>
+  <text x="218" y="127" font-family="ui-monospace,monospace" font-size="9" fill="#c4b5fd">67.1%</text>
+  <text x="100" y="127" font-family="ui-monospace,monospace" font-size="9" fill="#93c5fd">56.9%</text>
+
+  <!-- Skip rate: Free 31.7, Premium 18.2 -->
+  <text x="30" y="152" font-family="ui-sans-serif,sans-serif" font-size="11" fill="#64748b">Skip rate</text>
+  <rect x="30" y="138" width="101" height="12" rx="3" fill="#ef4444" opacity="0.8"/>
+  <rect x="30" y="138" width="58" height="12" rx="3" fill="#f97316" opacity="0.8"/>
+  <text x="136" y="149" font-family="ui-monospace,monospace" font-size="9" fill="#fca5a5">Free: 31.7%</text>
+  <text x="58"  y="149" font-family="ui-monospace,monospace" font-size="9" fill="#fed7aa">Prem: 18.2%</text>
+
+  <!-- stat cards right side -->
+  <rect x="480" y="38" width="168" height="98" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="564" y="62" font-family="ui-monospace,monospace" font-size="26" fill="#6ee7b7" text-anchor="middle" font-weight="700">2.6×</text>
+  <text x="564" y="82" font-family="ui-sans-serif,sans-serif" font-size="10" fill="#34d399" text-anchor="middle">more plays</text>
+  <text x="564" y="96" font-family="ui-sans-serif,sans-serif" font-size="9" fill="#475569" text-anchor="middle">per user · premium vs free</text>
+  <text x="564" y="126" font-family="ui-sans-serif,sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">the business case for upgrading</text>
+
+  <rect x="668" y="38" width="168" height="98" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="752" y="62" font-family="ui-monospace,monospace" font-size="26" fill="#fcd34d" text-anchor="middle" font-weight="700">-13.5pp</text>
+  <text x="752" y="82" font-family="ui-sans-serif,sans-serif" font-size="10" fill="#fbbf24" text-anchor="middle">skip rate drop</text>
+  <text x="752" y="96" font-family="ui-sans-serif,sans-serif" font-size="9" fill="#475569" text-anchor="middle">when user upgrades to premium</text>
+  <text x="752" y="126" font-family="ui-sans-serif,sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">recommendation signal improves</text>
+</svg>

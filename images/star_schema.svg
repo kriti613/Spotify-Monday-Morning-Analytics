@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" width="860" height="300">
+  <rect width="860" height="300" fill="#0f172a" rx="12"/>
+  <text x="430" y="28" font-family="ui-sans-serif,sans-serif" font-size="12" fill="#475569" text-anchor="middle" font-weight="500">Star Schema · analytics layer</text>
+
+  <!-- Center: fact_streams -->
+  <rect x="305" y="100" width="250" height="140" rx="10" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+  <rect x="305" y="100" width="250" height="5" rx="3" fill="#f59e0b"/>
+  <text x="430" y="125" font-family="ui-monospace,monospace" font-size="12" fill="#fbbf24" text-anchor="middle" font-weight="700">fact_streams</text>
+  <text x="320" y="147" font-family="ui-monospace,monospace" font-size="10" fill="#64748b">stream_key   BIGSERIAL PK</text>
+  <text x="320" y="162" font-family="ui-monospace,monospace" font-size="10" fill="#60a5fa">user_key     INT FK ──────►</text>
+  <text x="320" y="177" font-family="ui-monospace,monospace" font-size="10" fill="#a78bfa">song_key     INT FK</text>
+  <text x="320" y="192" font-family="ui-monospace,monospace" font-size="10" fill="#34d399">artist_key   INT FK</text>
+  <text x="320" y="207" font-family="ui-monospace,monospace" font-size="10" fill="#f472b6">date_key     INT FK</text>
+  <text x="320" y="222" font-family="ui-monospace,monospace" font-size="10" fill="#94a3b8">completion_pct NUMERIC</text>
+
+  <!-- dim_users (right) -->
+  <rect x="640" y="60" width="185" height="100" rx="8" fill="#1e293b" stroke="#2563eb" stroke-width="1"/>
+  <rect x="640" y="60" width="185" height="4" rx="3" fill="#3b82f6"/>
+  <text x="732" y="82" font-family="ui-monospace,monospace" font-size="11" fill="#60a5fa" text-anchor="middle" font-weight="600">dim_users</text>
+  <text x="652" y="100" font-family="ui-monospace,monospace" font-size="9.5" fill="#64748b">user_key       SERIAL PK</text>
+  <text x="652" y="115" font-family="ui-monospace,monospace" font-size="9.5" fill="#64748b">subscription_type</text>
+  <text x="652" y="130" font-family="ui-monospace,monospace" font-size="9.5" fill="#64748b">country_code · age_group</text>
+  <text x="652" y="147" font-family="ui-monospace,monospace" font-size="9" fill="#ef4444">no email — PII stays staging</text>
+  <line x1="556" y1="162" x2="638" y2="110" stroke="#3b82f6" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- dim_songs (top) -->
+  <rect x="330" y="20" width="200" height="68" rx="8" fill="#1e293b" stroke="#7c3aed" stroke-width="1"/>
+  <rect x="330" y="20" width="200" height="4" rx="3" fill="#8b5cf6"/>
+  <text x="430" y="40" font-family="ui-monospace,monospace" font-size="11" fill="#a78bfa" text-anchor="middle" font-weight="600">dim_songs</text>
+  <text x="340" y="57" font-family="ui-monospace,monospace" font-size="9.5" fill="#64748b">song_key · title · genre</text>
+  <text x="340" y="71" font-family="ui-monospace,monospace" font-size="9.5" fill="#64748b">duration_ms · release_date</text>
+  <line x1="430" y1="88" x2="430" y2="100" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- dim_artists (left) -->
+  <rect x="30" y="60" width="200" height="88" rx="8" fill="#1e293b" stroke="#065f46" stroke-width="1"/>
+  <rect x="30" y="60" width="200" height="4" rx="3" fill="#10b981"/>
+  <text x="130" y="82" font-family="ui-monospace,monospace" font-size="11" fill="#34d399" text-anchor="middle" font-weight="600">dim_artists</text>
+  <text x="42" y="100" font-family="ui-monospace,monospace" font-size="9.5" fill="#64748b">artist_key  SERIAL PK</text>
+  <text x="42" y="115" font-family="ui-monospace,monospace" font-size="9.5" fill="#64748b">name · country</text>
+  <text x="42" y="130" font-family="ui-monospace,monospace" font-size="9.5" fill="#64748b">primary_genre</text>
+  <line x1="230" y1="104" x2="305" y2="177" stroke="#10b981" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- dim_date (bottom) -->
+  <rect x="330" y="258" width="200" height="32" rx="8" fill="#1e293b" stroke="#9d174d" stroke-width="1"/>
+  <rect x="330" y="258" width="200" height="4" rx="3" fill="#ec4899"/>
+  <text x="430" y="278" font-family="ui-monospace,monospace" font-size="10" fill="#f9a8d4" text-anchor="middle" font-weight="600">dim_date · 2,922 rows · YYYYMMDD key</text>
+  <line x1="430" y1="240" x2="430" y2="258" stroke="#ec4899" stroke-width="1" stroke-dasharray="4 3"/>
+</svg>
