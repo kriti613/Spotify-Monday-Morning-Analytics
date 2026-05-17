@@ -141,8 +141,8 @@ Use these steps to reproduce the project on a fresh machine after cloning from G
 ### 1. Clone and enter the project
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd spotify-case-study   # use your repo folder name
+git clone https://github.com/kriti613/Spotify-Monday-Morning-Analytics.git
+cd Spotify-Monday-Morning-Analytics
 ```
 
 ### 2. Install PostgreSQL
